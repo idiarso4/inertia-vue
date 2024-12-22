@@ -1,0 +1,35 @@
+{
+  "name": "argon-dashboard",
+  "description": "Argon - Dashboard for Bootstrap 5 by Creative Tim",
+  "filename": "argon-dashboard.min.js",
+  "keywords": [
+    "design-systems",
+    "dashboard",
+    "admin-dashboard",
+    "bootstrap-5",
+    "creative-tim"
+  ],
+  "version": "2.0.4",
+  "homepage": "https://demos.creative-tim.com/argon-dashboard/",
+  "author": "Creative Tim",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.2.0",
+    "@popperjs/core": "^2.11.8"
+  },
+  "files": [
+    {
+      "basePath": "/assets",
+      "files": [
+        "css/argon-dashboard.min.css",
+        "js/argon-dashboard.min.js",
+        "css/nucleo-icons.css",
+        "css/nucleo-svg.css",
+        "js/core/bootstrap.min.js",
+        "js/core/popper.min.js",
+        "js/plugins/perfect-scrollbar.min.js",
+        "js/plugins/smooth-scrollbar.min.js"
+      ]
+    }
+  ]
+} 

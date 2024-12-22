@@ -5,7 +5,7 @@
              class="fixed inset-y-0 left-0 z-30 w-64 bg-gray-900 text-white transform transition-transform duration-300 ease-in-out overflow-hidden">
             <!-- Sidebar Header -->
             <div class="p-6 bg-gray-900 border-b border-gray-800">
-                <Link href="/admin/dashboard" class="text-2xl font-bold">SMK App</Link>
+                <h1 class="text-2xl font-bold">PORTAL SKANSAPUNG</h1>
             </div>
             
             <!-- Scrollable Menu Items -->
