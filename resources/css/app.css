@@ -1,0 +1,78 @@
+/* Import Bootstrap */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Argon styles */
+.bg-gradient-primary {
+    background-image: linear-gradient(310deg, #5e72e4 0%, #825ee4 100%);
+}
+
+.bg-gradient-info {
+    background-image: linear-gradient(310deg, #1171ef 0%, #11cdef 100%);
+}
+
+.bg-gradient-success {
+    background-image: linear-gradient(310deg, #2dce89 0%, #2dcecc 100%);
+}
+
+.bg-gradient-warning {
+    background-image: linear-gradient(310deg, #fb6340 0%, #fbb140 100%);
+}
+
+.icon-shape {
+    width: 48px;
+    height: 48px;
+    background-position: center;
+    border-radius: 0.75rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-shape i {
+    color: #fff;
+    opacity: 0.8;
+    font-size: 1.25rem;
+    line-height: 1;
+}
+
+.card {
+    box-shadow: 0 0 2rem 0 rgba(136,152,170,.15);
+    border: 0;
+}
+
+.text-lg {
+    font-size: 1.25rem;
+}
+
+.font-weight-bolder {
+    font-weight: 700 !important;
+}
+
+.shadow-primary {
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(94,114,228,.4) !important;
+}
+
+.numbers h5 {
+    font-size: 1.25rem;
+    margin-bottom: 0;
+}
+
+.numbers .text-sm {
+    font-size: 0.875rem;
+    letter-spacing: 0;
+}
+
+.card {
+    margin-bottom: 1rem;
+}
+
+.card-header {
+    padding: 1.5rem;
+    background: transparent;
+    border-bottom: 1px solid #e9ecef;
+}
